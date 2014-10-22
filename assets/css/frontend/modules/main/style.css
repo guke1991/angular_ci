@@ -1,0 +1,76 @@
+section#content .logo {
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section#content .logo img {
+    cursor: pointer;
+    max-width: 300px;
+    opacity: 0.6;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+section#content .logo img:hover {
+    opacity: 1;
+}
+
+section#content .main-search {
+    width: 800px;
+    margin:  0 auto;
+}
+
+section#content .main-search .input-text input {
+    padding: 10px 15px;
+    font-size: 14px;
+    width: 720px;
+    display: inline;
+    border: 1px solid #cecece;
+}
+
+section#content .main-search .input-btn button {
+    cursor: pointer;
+    height: 34px;
+    width: 40px;
+    border: 0;
+    background: url("/assets/img/frontend/modules/main/find.png") repeat-y center center;
+    background-size: 85%;
+
+    margin-top: 3px;
+
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
+    -ms-transition: all 0.1s;
+    -o-transition: all 0.1s;
+    transition: all 0.1s;
+
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: url(grayscale.svg);
+    filter: gray;
+}
+
+section#content .main-search .input-btn button:hover {
+    background-position: center -34px;
+
+    -webkit-filter: none;
+    -moz-filter: grayscale(0%);
+    -ms-filter: grayscale(0%);
+    -o-filter: grayscale(0%);
+    filter: grayscale(0%);
+    filter: none; /* Firefox 4+ */
+}
+
+section#content .main-search .input-btn,
+section#content .main-search .input-text {
+    float: left;
+}
+
+

@@ -1,0 +1,48 @@
+/* MODAL */
+
+.modal {
+    display: none;
+    position: fixed;
+    background: #ececec;
+    padding: 0;
+    width: 300px;
+    min-height: 200px;
+    box-shadow: 0 0 1px 1px #cecece;
+    border: 1px solid #f0f0f0;
+}
+
+.modal .title {
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+    color: darkslategrey;
+    font-size: 16px;
+    background: #f1f1f1;
+}
+
+.modal .title .close {
+    float: right;
+    color: crimson;
+    padding: 5px 12px;
+    vertical-align: top;
+    cursor: pointer;
+    margin-top: -38px;
+    margin-right: -38px;
+    border-radius: 50%;
+    background: #ececec;
+}
+
+.modal .title .close:hover {
+    background: #cecece;
+}
+
+.modal .content {
+    padding: 10px 20px;
+    min-height: 120px;
+}
+
+.modal .actions {
+    background: #f1f1f1;
+    padding: 10px 5px;
+    text-align: right;
+}

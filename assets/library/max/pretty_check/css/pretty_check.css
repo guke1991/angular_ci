@@ -1,0 +1,36 @@
+.pretty-check-label {
+    text-align: left;
+    display: block;
+    padding: 5px 20px;
+    cursor: pointer;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.pretty-check-label .pretty-check-box {
+    width: 12px;
+    height: 12px;
+    background: url("/img/stripes.png") repeat #dc143c;
+    float: left;
+    margin-right: 10px;
+    border-radius: 50%;
+    border: 3px solid #808080;
+
+    vertical-align: top;
+
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.pretty-check-label.active .pretty-check-box {
+    background: #14dc3c;
+    border: 3px solid green;
+}
